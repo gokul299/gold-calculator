@@ -1,0 +1,10 @@
+html, body {
+    margin: auto auto;
+    max-width: 600px;
+    background-color: rgb(243, 252, 247);
+}
+
+.App{
+    text-align: center;
+    color:rgb(64, 114, 76);
+}
