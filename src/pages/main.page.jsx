@@ -12,7 +12,8 @@ const MainPage = () => {
   const names  = ['Grams of  Gold','Quarter Gold','Half Gold','Full Gold']
   useEffect(() => {
     getRealData();
-  }, []);
+        // eslint-disable-next-line 
+}, []);
 
   if (goldPriceList.isLoaded) {
     return (
