@@ -2,6 +2,9 @@ html, body {
     margin: auto auto;
     max-width: 600px;
     background-color: rgb(243, 252, 247);
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .App{
