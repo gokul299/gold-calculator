@@ -31,7 +31,8 @@ const Input = ({ name, price, index }) => {
   };
 
   React.useEffect(() => {
-    addNumber(0, index);
+    addNumber(0, index);    
+    // eslint-disable-next-line 
   }, []);
 
   return (
