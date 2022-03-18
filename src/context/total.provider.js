@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import TotalContext from "./total.context";
 
 const API_URL = "https://api.collectapi.com/economy/goldPrice";
-const API_KEY = "apikey 3ezQCTN7i42kky60FIuACC:0GKhi7OrjRixORyY7otCqo";
+const API_KEY = "apikey 5XEyvaMZ85JgFlloz93RCk:7FVTjpaGZX8euHubUdeCMX";
 
 const TotalProvider = ({ children }) => {
   const [totalPrice, setTotalPrice] = useState(0);
